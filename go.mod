@@ -14,7 +14,7 @@ require (
 	github.com/dgraph-io/badger/v2 v2.2007.4
 	github.com/fatih/structs v1.1.0
 	github.com/flosch/pongo2/v4 v4.0.2
-	github.com/golang/snappy v0.0.4
+	github.com/golang/snappy v1.0.0
 	github.com/gomarkdown/markdown v0.0.0-20240328165702-4d01890c35c0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/securecookie v1.1.2
