@@ -1,6 +1,6 @@
 module github.com/kataras/iris/v12
 
-go 1.22
+go 1.27
 
 retract [v12.0.0, v12.1.8] // Retract older versions as only latest is to be depended upon. Please update to @latest
 
@@ -23,7 +23,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/kataras/blocks v0.0.8
 	github.com/kataras/golog v0.1.11
-	github.com/kataras/jwt v0.1.12
+	github.com/kataras/jwt v0.3.0
 	github.com/kataras/neffos v0.0.24-0.20240408172741-99c879ba0ede
 	github.com/kataras/pio v0.0.13
 	github.com/kataras/sitemap v0.0.6
