@@ -1,6 +1,6 @@
 module github.com/kataras/iris/v12
 
-go 1.22
+go 1.27
 
 retract [v12.0.0, v12.1.8] // Retract older versions as only latest is to be depended upon. Please update to @latest
 
@@ -21,7 +21,7 @@ require (
 	github.com/iris-contrib/httpexpect/v2 v2.15.2
 	github.com/iris-contrib/schema v0.0.6
 	github.com/json-iterator/go v1.1.12
-	github.com/kataras/blocks v0.0.8
+	github.com/kataras/blocks v0.1.0
 	github.com/kataras/golog v0.1.11
 	github.com/kataras/jwt v0.1.12
 	github.com/kataras/neffos v0.0.24-0.20240408172741-99c879ba0ede
@@ -87,7 +87,6 @@ require (
 	github.com/pkg/errors v0.8.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
-	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sanity-io/litter v1.5.5 // indirect
 	github.com/sergi/go-diff v1.0.0 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
@@ -96,7 +95,6 @@ require (
 	github.com/tdewolff/parse/v2 v2.7.12 // indirect
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
-	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
@@ -104,6 +102,7 @@ require (
 	github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0 // indirect
 	github.com/yudai/gojsondiff v1.0.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
+	github.com/yuin/goldmark v1.8.6 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	moul.io/http2curl/v2 v2.3.0 // indirect
